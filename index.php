@@ -116,14 +116,10 @@ echo $marks['eric']['chemistry'] .  "<br />";
 //weather 
 
 
-function weather()
+function fahrenheit_to_celsius($given_value)
 {
-    $f= 0;
-    $c=($f-32) * 5/9;
-
-echo "weather is = $c";                                   
-}
-
+	$celsius=5/9*($given_value-32);
+	echo ("$celsius ");
 
 
 
